@@ -1,0 +1,48 @@
+The below are the schemas for the paper trading project : -
+
+User : -
+
+User ID 
+Name
+Email
+Password
+Created At
+Updated At
+
+
+Balance : -
+
+User ID
+Balance
+Created At
+Updated At
+
+
+Orders : -
+
+User ID
+Order ID
+Symbol
+Qty
+Price
+Order_Type
+Status
+Timestamp
+
+Portfolio: -
+
+User ID
+Symbol
+Qty
+Avg_Price
+Created At
+Updated At
+Delete_At
+
+Watchlist : -
+
+User ID
+Symbol
+Created At
+
+
