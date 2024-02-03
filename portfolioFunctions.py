@@ -56,11 +56,26 @@ class Portfolio:
         self.collection.update_one({'user_id': self.user_id}, {'$push': {'stocks': stock_data}})
         return self.collection.find_one({'user_id': self.user_id})
 
-    def remove_stock(self, symbol):
-        now = datetime.utcnow().isoformat()
-        update_data = {'$set': {'stocks.$.delete_at': now, 'stocks.$.sold?': True}}
-        self.collection.update_one({'user_id': self.user_id, 'stocks.symbol': symbol, 'stocks.sold?':False}, update_data)
-        return self.collection.find_one({'user_id': self.user_id})
+    def remove_stock(self, symbol,quantity, avg_price, created_at):
+        #reduce the number of stocks and if the quantity is 0 then delete the stock
+        stock = self.collection.find_one({'user_id': self.user_id, 'stocks.symbol': symbol, 'stocks.sold?': False})
+        if stock:
+            if stock['quantity'] - quantity == 0:
+                self.collection.update_one({'user_id': self.user_id}, {'$pull': {'stocks': {'symbol': symbol}}})
+            else:
+                stock_data = {
+                    'symbol': symbol,
+                    'quantity': stock['quantity'] - quantity,
+                    'avg_price': (stock['avg_price'] + avg_price) / 2,
+                    'created_at': stock['created_at'],
+                    'updated_at': None,
+                    'delete_at': None,
+                    'sold?': False
+                }
+                self.collection.update_one({'user_id': self.user_id, 'stocks.symbol': symbol}, {'$set': {'stocks.$': stock_data}})
+            return self.collection.find_one({'user_id': self.user_id})
+        
+
 
     def update_stock(self, symbol, quantity, avg_price, updated_at):
         query = {'user_id': self.user_id, 'stocks.symbol': symbol , 'stocks.sold?': False}

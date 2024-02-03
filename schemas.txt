@@ -26,8 +26,11 @@ Symbol
 Qty
 Price
 Order_Type
-Status
 Timestamp
+Status
+takeProfit
+stopLoss
+
 
 Portfolio: -
 
