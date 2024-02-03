@@ -43,7 +43,7 @@ Delete_At}
 Watchlist : -
 
 User ID
-Symbol
+Symbol -List of all the symbols in the watchlist
 Created At
 
 

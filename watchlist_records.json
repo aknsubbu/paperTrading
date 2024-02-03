@@ -1,0 +1,702 @@
+[
+  {
+    "user_id": "user_000",
+    "symbols": [
+      "NVDA"
+    ],
+    "created_at": "2023-11-27T10:33:11.244451Z"
+  },
+  {
+    "user_id": "user_001",
+    "symbols": [
+      "ADBE"
+    ],
+    "created_at": "2023-09-24T01:33:11.244626Z"
+  },
+  {
+    "user_id": "user_002",
+    "symbols": [
+      "ADBE"
+    ],
+    "created_at": "2024-01-01T14:33:11.244631Z"
+  },
+  {
+    "user_id": "user_003",
+    "symbols": [
+      "PYPL"
+    ],
+    "created_at": "2023-09-17T18:33:11.244638Z"
+  },
+  {
+    "user_id": "user_004",
+    "symbols": [
+      "ADBE"
+    ],
+    "created_at": "2023-09-15T17:33:11.244641Z"
+  },
+  {
+    "user_id": "user_005",
+    "symbols": [
+      "AMZN"
+    ],
+    "created_at": "2023-05-11T06:33:11.244644Z"
+  },
+  {
+    "user_id": "user_006",
+    "symbols": [
+      "AAPL"
+    ],
+    "created_at": "2023-06-01T20:33:11.244647Z"
+  },
+  {
+    "user_id": "user_007",
+    "symbols": [
+      "AMZN"
+    ],
+    "created_at": "2023-11-27T18:33:11.244651Z"
+  },
+  {
+    "user_id": "user_008",
+    "symbols": [
+      "TSLA"
+    ],
+    "created_at": "2024-01-29T11:33:11.244654Z"
+  },
+  {
+    "user_id": "user_009",
+    "symbols": [
+      "TSLA"
+    ],
+    "created_at": "2023-09-13T16:33:11.244657Z"
+  },
+  {
+    "user_id": "user_010",
+    "symbols": [
+      "NVDA"
+    ],
+    "created_at": "2023-05-02T17:33:11.244660Z"
+  },
+  {
+    "user_id": "user_011",
+    "symbols": [
+      "GOOGL"
+    ],
+    "created_at": "2023-06-07T20:33:11.244662Z"
+  },
+  {
+    "user_id": "user_012",
+    "symbols": [
+      "AAPL"
+    ],
+    "created_at": "2023-08-04T09:33:11.244665Z"
+  },
+  {
+    "user_id": "user_013",
+    "symbols": [
+      "TSLA"
+    ],
+    "created_at": "2023-11-16T07:33:11.244667Z"
+  },
+  {
+    "user_id": "user_014",
+    "symbols": [
+      "ADBE"
+    ],
+    "created_at": "2023-10-17T15:33:11.244669Z"
+  },
+  {
+    "user_id": "user_015",
+    "symbols": [
+      "MSFT"
+    ],
+    "created_at": "2023-06-20T05:33:11.244672Z"
+  },
+  {
+    "user_id": "user_016",
+    "symbols": [
+      "GOOGL"
+    ],
+    "created_at": "2023-12-10T02:33:11.244674Z"
+  },
+  {
+    "user_id": "user_017",
+    "symbols": [
+      "INTC"
+    ],
+    "created_at": "2023-09-23T01:33:11.244677Z"
+  },
+  {
+    "user_id": "user_018",
+    "symbols": [
+      "GOOGL"
+    ],
+    "created_at": "2023-10-30T10:33:11.244679Z"
+  },
+  {
+    "user_id": "user_019",
+    "symbols": [
+      "NVDA"
+    ],
+    "created_at": "2023-10-31T11:33:11.244681Z"
+  },
+  {
+    "user_id": "user_020",
+    "symbols": [
+      "AAPL"
+    ],
+    "created_at": "2024-01-25T19:33:11.244684Z"
+  },
+  {
+    "user_id": "user_021",
+    "symbols": [
+      "ADBE"
+    ],
+    "created_at": "2023-09-30T11:33:11.244686Z"
+  },
+  {
+    "user_id": "user_022",
+    "symbols": [
+      "ADBE"
+    ],
+    "created_at": "2023-10-18T16:33:11.244688Z"
+  },
+  {
+    "user_id": "user_023",
+    "symbols": [
+      "GOOGL"
+    ],
+    "created_at": "2024-01-23T00:33:11.244691Z"
+  },
+  {
+    "user_id": "user_024",
+    "symbols": [
+      "AAPL"
+    ],
+    "created_at": "2023-10-02T19:33:11.244693Z"
+  },
+  {
+    "user_id": "user_025",
+    "symbols": [
+      "NVDA"
+    ],
+    "created_at": "2023-08-13T13:33:11.244696Z"
+  },
+  {
+    "user_id": "user_026",
+    "symbols": [
+      "AMZN"
+    ],
+    "created_at": "2023-02-21T00:33:11.244698Z"
+  },
+  {
+    "user_id": "user_027",
+    "symbols": [
+      "NVDA"
+    ],
+    "created_at": "2023-06-18T06:33:11.244700Z"
+  },
+  {
+    "user_id": "user_028",
+    "symbols": [
+      "INTC"
+    ],
+    "created_at": "2023-07-23T11:33:11.244702Z"
+  },
+  {
+    "user_id": "user_029",
+    "symbols": [
+      "FB"
+    ],
+    "created_at": "2024-01-06T16:33:11.244705Z"
+  },
+  {
+    "user_id": "user_030",
+    "symbols": [
+      "MSFT"
+    ],
+    "created_at": "2023-10-13T09:33:11.244707Z"
+  },
+  {
+    "user_id": "user_031",
+    "symbols": [
+      "GOOGL"
+    ],
+    "created_at": "2023-02-11T00:33:11.244709Z"
+  },
+  {
+    "user_id": "user_032",
+    "symbols": [
+      "PYPL"
+    ],
+    "created_at": "2024-01-05T00:33:11.244712Z"
+  },
+  {
+    "user_id": "user_033",
+    "symbols": [
+      "NVDA"
+    ],
+    "created_at": "2023-07-15T03:33:11.244714Z"
+  },
+  {
+    "user_id": "user_034",
+    "symbols": [
+      "ADBE"
+    ],
+    "created_at": "2023-03-06T20:33:11.244717Z"
+  },
+  {
+    "user_id": "user_035",
+    "symbols": [
+      "AAPL"
+    ],
+    "created_at": "2023-02-22T08:33:11.244719Z"
+  },
+  {
+    "user_id": "user_036",
+    "symbols": [
+      "NVDA"
+    ],
+    "created_at": "2023-04-21T13:33:11.244721Z"
+  },
+  {
+    "user_id": "user_037",
+    "symbols": [
+      "AMZN"
+    ],
+    "created_at": "2023-10-20T19:33:11.244724Z"
+  },
+  {
+    "user_id": "user_038",
+    "symbols": [
+      "TSLA"
+    ],
+    "created_at": "2023-08-01T08:33:11.244726Z"
+  },
+  {
+    "user_id": "user_039",
+    "symbols": [
+      "AMZN"
+    ],
+    "created_at": "2023-04-05T01:33:11.244728Z"
+  },
+  {
+    "user_id": "user_040",
+    "symbols": [
+      "GOOGL"
+    ],
+    "created_at": "2023-04-14T04:33:11.244731Z"
+  },
+  {
+    "user_id": "user_041",
+    "symbols": [
+      "GOOGL"
+    ],
+    "created_at": "2023-06-05T20:33:11.244733Z"
+  },
+  {
+    "user_id": "user_042",
+    "symbols": [
+      "AAPL"
+    ],
+    "created_at": "2023-10-26T11:33:11.244738Z"
+  },
+  {
+    "user_id": "user_043",
+    "symbols": [
+      "AMZN"
+    ],
+    "created_at": "2023-02-15T15:33:11.244740Z"
+  },
+  {
+    "user_id": "user_044",
+    "symbols": [
+      "NVDA"
+    ],
+    "created_at": "2023-11-21T12:33:11.244742Z"
+  },
+  {
+    "user_id": "user_045",
+    "symbols": [
+      "NVDA"
+    ],
+    "created_at": "2024-01-11T10:33:11.244744Z"
+  },
+  {
+    "user_id": "user_046",
+    "symbols": [
+      "ADBE"
+    ],
+    "created_at": "2023-04-29T05:33:11.244746Z"
+  },
+  {
+    "user_id": "user_047",
+    "symbols": [
+      "ADBE"
+    ],
+    "created_at": "2023-10-16T00:33:11.244749Z"
+  },
+  {
+    "user_id": "user_048",
+    "symbols": [
+      "AMZN"
+    ],
+    "created_at": "2023-03-06T11:33:11.244751Z"
+  },
+  {
+    "user_id": "user_049",
+    "symbols": [
+      "ADBE"
+    ],
+    "created_at": "2023-05-24T23:33:11.244753Z"
+  },
+  {
+    "user_id": "user_050",
+    "symbols": [
+      "TSLA"
+    ],
+    "created_at": "2023-06-18T17:33:11.244756Z"
+  },
+  {
+    "user_id": "user_051",
+    "symbols": [
+      "AAPL"
+    ],
+    "created_at": "2023-11-19T05:33:11.244758Z"
+  },
+  {
+    "user_id": "user_052",
+    "symbols": [
+      "PYPL"
+    ],
+    "created_at": "2023-08-24T13:33:11.244760Z"
+  },
+  {
+    "user_id": "user_053",
+    "symbols": [
+      "AAPL"
+    ],
+    "created_at": "2024-01-24T15:33:11.244762Z"
+  },
+  {
+    "user_id": "user_054",
+    "symbols": [
+      "TSLA"
+    ],
+    "created_at": "2024-01-05T10:33:11.244764Z"
+  },
+  {
+    "user_id": "user_055",
+    "symbols": [
+      "AAPL"
+    ],
+    "created_at": "2023-03-11T03:33:11.244767Z"
+  },
+  {
+    "user_id": "user_056",
+    "symbols": [
+      "PYPL"
+    ],
+    "created_at": "2023-05-20T03:33:11.244769Z"
+  },
+  {
+    "user_id": "user_057",
+    "symbols": [
+      "MSFT"
+    ],
+    "created_at": "2023-10-13T14:33:11.244771Z"
+  },
+  {
+    "user_id": "user_058",
+    "symbols": [
+      "NVDA"
+    ],
+    "created_at": "2023-06-13T15:33:11.244773Z"
+  },
+  {
+    "user_id": "user_059",
+    "symbols": [
+      "PYPL"
+    ],
+    "created_at": "2023-02-03T18:33:11.244776Z"
+  },
+  {
+    "user_id": "user_060",
+    "symbols": [
+      "ADBE"
+    ],
+    "created_at": "2023-04-15T06:33:11.244778Z"
+  },
+  {
+    "user_id": "user_061",
+    "symbols": [
+      "AAPL"
+    ],
+    "created_at": "2024-01-18T03:33:11.244780Z"
+  },
+  {
+    "user_id": "user_062",
+    "symbols": [
+      "MSFT"
+    ],
+    "created_at": "2023-11-06T02:33:11.244783Z"
+  },
+  {
+    "user_id": "user_063",
+    "symbols": [
+      "ADBE"
+    ],
+    "created_at": "2023-10-05T18:33:11.244785Z"
+  },
+  {
+    "user_id": "user_064",
+    "symbols": [
+      "GOOGL"
+    ],
+    "created_at": "2023-08-09T20:33:11.244787Z"
+  },
+  {
+    "user_id": "user_065",
+    "symbols": [
+      "NVDA"
+    ],
+    "created_at": "2023-06-11T11:33:11.244790Z"
+  },
+  {
+    "user_id": "user_066",
+    "symbols": [
+      "FB"
+    ],
+    "created_at": "2023-05-03T10:33:11.244792Z"
+  },
+  {
+    "user_id": "user_067",
+    "symbols": [
+      "NVDA"
+    ],
+    "created_at": "2023-06-04T10:33:11.244794Z"
+  },
+  {
+    "user_id": "user_068",
+    "symbols": [
+      "AMZN"
+    ],
+    "created_at": "2023-12-27T12:33:11.244796Z"
+  },
+  {
+    "user_id": "user_069",
+    "symbols": [
+      "AAPL"
+    ],
+    "created_at": "2023-12-20T00:33:11.244799Z"
+  },
+  {
+    "user_id": "user_070",
+    "symbols": [
+      "MSFT"
+    ],
+    "created_at": "2023-08-14T12:33:11.244801Z"
+  },
+  {
+    "user_id": "user_071",
+    "symbols": [
+      "AMZN"
+    ],
+    "created_at": "2023-03-03T09:33:11.244803Z"
+  },
+  {
+    "user_id": "user_072",
+    "symbols": [
+      "GOOGL"
+    ],
+    "created_at": "2024-01-28T16:33:11.244805Z"
+  },
+  {
+    "user_id": "user_073",
+    "symbols": [
+      "INTC"
+    ],
+    "created_at": "2023-02-21T02:33:11.244807Z"
+  },
+  {
+    "user_id": "user_074",
+    "symbols": [
+      "GOOGL"
+    ],
+    "created_at": "2023-06-01T22:33:11.244810Z"
+  },
+  {
+    "user_id": "user_075",
+    "symbols": [
+      "FB"
+    ],
+    "created_at": "2023-12-05T04:33:11.244812Z"
+  },
+  {
+    "user_id": "user_076",
+    "symbols": [
+      "ADBE"
+    ],
+    "created_at": "2023-05-15T17:33:11.244814Z"
+  },
+  {
+    "user_id": "user_077",
+    "symbols": [
+      "AAPL"
+    ],
+    "created_at": "2023-11-25T14:33:11.244817Z"
+  },
+  {
+    "user_id": "user_078",
+    "symbols": [
+      "GOOGL"
+    ],
+    "created_at": "2023-11-07T23:33:11.244819Z"
+  },
+  {
+    "user_id": "user_079",
+    "symbols": [
+      "TSLA"
+    ],
+    "created_at": "2023-03-18T02:33:11.244821Z"
+  },
+  {
+    "user_id": "user_080",
+    "symbols": [
+      "TSLA"
+    ],
+    "created_at": "2023-07-08T10:33:11.244823Z"
+  },
+  {
+    "user_id": "user_081",
+    "symbols": [
+      "TSLA"
+    ],
+    "created_at": "2023-06-26T11:33:11.244825Z"
+  },
+  {
+    "user_id": "user_082",
+    "symbols": [
+      "ADBE"
+    ],
+    "created_at": "2023-07-05T03:33:11.244828Z"
+  },
+  {
+    "user_id": "user_083",
+    "symbols": [
+      "AMZN"
+    ],
+    "created_at": "2023-06-17T09:33:11.244830Z"
+  },
+  {
+    "user_id": "user_084",
+    "symbols": [
+      "MSFT"
+    ],
+    "created_at": "2023-08-20T17:33:11.244832Z"
+  },
+  {
+    "user_id": "user_085",
+    "symbols": [
+      "GOOGL"
+    ],
+    "created_at": "2023-04-26T16:33:11.244834Z"
+  },
+  {
+    "user_id": "user_086",
+    "symbols": [
+      "GOOGL"
+    ],
+    "created_at": "2023-03-26T14:33:11.244837Z"
+  },
+  {
+    "user_id": "user_087",
+    "symbols": [
+      "NVDA"
+    ],
+    "created_at": "2023-07-31T15:33:11.244839Z"
+  },
+  {
+    "user_id": "user_088",
+    "symbols": [
+      "TSLA"
+    ],
+    "created_at": "2023-06-02T22:33:11.244841Z"
+  },
+  {
+    "user_id": "user_089",
+    "symbols": [
+      "TSLA"
+    ],
+    "created_at": "2023-11-11T10:33:11.244843Z"
+  },
+  {
+    "user_id": "user_090",
+    "symbols": [
+      "GOOGL"
+    ],
+    "created_at": "2023-09-05T13:33:11.244846Z"
+  },
+  {
+    "user_id": "user_091",
+    "symbols": [
+      "INTC"
+    ],
+    "created_at": "2023-02-20T11:33:11.244848Z"
+  },
+  {
+    "user_id": "user_092",
+    "symbols": [
+      "FB"
+    ],
+    "created_at": "2023-05-02T13:33:11.244850Z"
+  },
+  {
+    "user_id": "user_093",
+    "symbols": [
+      "NVDA"
+    ],
+    "created_at": "2023-03-02T22:33:11.244852Z"
+  },
+  {
+    "user_id": "user_094",
+    "symbols": [
+      "FB"
+    ],
+    "created_at": "2023-12-21T06:33:11.244855Z"
+  },
+  {
+    "user_id": "user_095",
+    "symbols": [
+      "PYPL"
+    ],
+    "created_at": "2023-05-16T03:33:11.244857Z"
+  },
+  {
+    "user_id": "user_096",
+    "symbols": [
+      "PYPL"
+    ],
+    "created_at": "2023-03-27T14:33:11.244859Z"
+  },
+  {
+    "user_id": "user_097",
+    "symbols": [
+      "ADBE"
+    ],
+    "created_at": "2023-04-15T19:33:11.244861Z"
+  },
+  {
+    "user_id": "user_098",
+    "symbols": [
+      "AMZN"
+    ],
+    "created_at": "2023-09-24T17:33:11.244864Z"
+  },
+  {
+    "user_id": "user_099",
+    "symbols": [
+      "MSFT"
+    ],
+    "created_at": "2024-01-07T17:33:11.244866Z"
+  }
+]
