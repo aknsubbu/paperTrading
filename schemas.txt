@@ -32,12 +32,13 @@ Timestamp
 Portfolio: -
 
 User ID
-Symbol
+Stocks: 
+{Symbol
 Qty
 Avg_Price
 Created At
 Updated At
-Delete_At
+Delete_At}
 
 Watchlist : -
 
