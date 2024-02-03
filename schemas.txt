@@ -46,3 +46,11 @@ Symbol
 Created At
 
 
+P&L Tracking : -
+
+User ID
+P&L --list of all the P&L values for the user
+Created At
+Updated At
+
+
