@@ -3,34 +3,6 @@ from dotenv import load_dotenv
 import os
 import pandas as pd
 
-load_dotenv()
-
-apikey = os.getenv('ALPHA_VANTAGE_API_KEY')
-
-baseUrl="https://www.alphavantage.co/"
-function="TIME_SERIES_INTRADAY"
-symbol="MSFT"
-interval="1min"
-
-
-
-urlLiveStream=f"{baseUrl}query?function={function}&symbol={symbol}&interval={interval}&apikey={apikey}"
-
-r = requests.get(urlLiveStream)
-data = r.json()
-
-time_series_data = data['Time Series (1min)']
-df = pd.DataFrame(time_series_data)
-df = pd.DataFrame.from_dict(time_series_data, orient="index")
-
-# Convert index to datetime format
-df.index = pd.to_datetime(df.index)
-
-# Save the DataFrame to a CSV file (or any other format)
-df.to_csv("intraday_data.csv")
-
-print(df) 
-
 
 class MarketReader:
     def __init__(self, symbol):
