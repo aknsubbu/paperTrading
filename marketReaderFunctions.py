@@ -122,3 +122,25 @@ class MarketReader:
         data = r.json()
         return data
     
+
+
+marketInput = MarketReader("AAPL")
+print("\n\n\n Live Stream \n\n\n")
+print(marketInput.get_live_stream())
+print("\n\n\n Daily \n\n\n")
+print(marketInput.get_daily())
+print("\n\n\n Weekly \n\n\n")
+print(marketInput.get_weekly())
+print("\n\n\n Monthly \n\n\n")
+print(marketInput.get_monthly())
+print("\n\n\n Market Status \n\n\n")
+print(marketInput.get_market_status())
+print("\n\n\n News Sentiment \n\n\n")
+print(marketInput.get_news_sentiment())
+print("\n\n\n Top Gainers Losers \n\n\n")
+print(marketInput.get_top_gainers_losers())
+print("\n\n\n EMA \n\n\n")
+print(marketInput.get_ema())
+print("\n\n\n RSI \n\n\n")
+print(marketInput.get_rsi())
+
