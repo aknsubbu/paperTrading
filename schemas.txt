@@ -32,7 +32,7 @@ takeProfit
 stopLoss
 
 
-Portfolio: -
+Portfolio: - 
 
 User ID
 Stocks: 
