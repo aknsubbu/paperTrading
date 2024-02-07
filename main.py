@@ -4,10 +4,8 @@ from fastapi import FastAPI, HTTPException
 
 app = FastAPI()
 
-@app.get("/")
-def read_root():
-    return {"Hello": "World"}
+@app.get("/checkUpLink")
+def read_upLink():
+    return {"upLink": "Up Link is active"}
 
-@app.get("/items/{item_id}")
-def read_item(item_id: int, q: str = None):
-    return {"item_id": item_id, "q": q}
+
