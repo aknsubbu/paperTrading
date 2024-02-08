@@ -2,7 +2,7 @@ import os
 import pymongo
 from dotenv import load_dotenv
 from datetime import datetime
-from portfolioFunctions import Portfolio
+from portfolioFunctions.portfolioFunctions import Portfolio
 
 class Order:
     def __init__(self, user_id):
