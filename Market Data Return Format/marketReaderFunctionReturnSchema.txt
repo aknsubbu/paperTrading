@@ -1,0 +1,191 @@
+LiveStream Market : -
+{
+  "data": [
+    {
+      "timestamp": "2024-02-07 19:59:00",
+      "open": 189.3700,
+      "high": 189.4300,
+      "low": 189.3700,
+      "close": 189.4000,
+      "volume": 1485
+    },
+    ...
+    ]
+}
+
+
+Daily,Weekly,Monthly : -
+{
+  "data": [
+    {
+      "date": "2024-02-07",
+      "open": 183.9850,
+      "high": 191.0500,
+      "low": 179.2500,
+      "close": 189.4100,
+      "volume": 334035622
+    },
+    ...
+    ]
+}
+
+
+Market Status : -
+{
+  "endpoint": "Global Market Open & Close Status",
+  "markets": [
+    {
+      "market_type": "Equity",
+      "region": "United States",
+      "primary_exchanges": "NASDAQ, NYSE, AMEX, BATS",
+      "local_open": "09:30",
+      "local_close": "16:15",
+      "current_status": "closed",
+      "notes": ""
+    },
+    ...
+  ]
+}
+
+News Sentiment : -
+{
+  "feed_information": {
+    "items": 1000,
+    "sentiment_score_definition": {
+      "label": "sentiment_label",
+      "range": {
+        "min": -1,
+        "max": 1
+      }
+    },
+    "relevance_score_definition": {
+      "label": "relevance_label",
+      "range": {
+        "min": 0,
+        "max": 1
+      }
+    }
+  },
+  "feed_items": [
+    {
+      "title": "Article Title 1",
+      "url": "https://example.com/article1",
+      "time_published": "2024-02-08T10:00:00",
+      "authors": ["Author1", "Author2"],
+      "summary": "Summary of the article content.",
+      "banner_image": "https://example.com/image1.jpg",
+      "source": "Source Name",
+      "category_within_source": "Category",
+      "source_domain": "example.com",
+      "topics": [
+        {
+          "topic": "Topic1",
+          "relevance_score": 0.8
+        },
+        {
+          "topic": "Topic2",
+          "relevance_score": 0.5
+        }
+      ],
+      "sentiment_analysis": {
+        "overall_sentiment_score": 0.6,
+        "overall_sentiment_label": "Bullish",
+        "ticker_sentiment": [
+          {
+            "ticker": "AAPL",
+            "relevance_score": 0.9,
+            "ticker_sentiment_score": 0.7,
+            "ticker_sentiment_label": "Bullish"
+          },
+          {
+            "ticker": "GOOGL",
+            "relevance_score": 0.5,
+            "ticker_sentiment_score": -0.3,
+            "ticker_sentiment_label": "Bearish"
+          }
+        ]
+      }
+    },
+    // More feed items...
+  ]
+}
+
+
+
+Top Gainers and Losers : -
+{
+  "metadata": "Top gainers, losers, and most actively traded US tickers",
+  "last_updated": "2024-02-07 16:15:59 US/Eastern",
+  "top_gainers": [
+    {
+      "ticker": "IMACW",
+      "price": "0.09",
+      "change_amount": "0.0829",
+      "change_percentage": "1167.6056%",
+      "volume": "351069"
+    },
+    ...
+  ],
+  "top_losers": [
+    {
+      "ticker": "GDSTW",
+      "price": "0.006",
+      "change_amount": "-0.009",
+      "change_percentage": "-60.0%",
+      "volume": "203"
+    },
+    ...
+  ],
+  "most_actively_traded": [
+    {
+      "ticker": "PLTR",
+      "price": "23.605",
+      "change_amount": "1.735",
+      "change_percentage": "7.9332%",
+      "volume": "252667804"
+    },
+    ...
+  ]
+}
+
+
+
+EMA : -
+{
+  "Meta Data": {
+    "1: Symbol": "AAPL",
+    "2: Indicator": "Exponential Moving Average (EMA)",
+    "3: Last Refreshed": "2024-02-07 19:59:00",
+    "4: Interval": "1min",
+    "5: Time Period": 10,
+    "6: Series Type": "close",
+    "7: Time Zone": "US/Eastern"
+  },
+  "Technical Analysis: EMA": {
+    "2024-02-07 19:59": {"EMA": "189.3528"},
+    "2024-02-07 19:58": {"EMA": "189.3423"},
+    "2024-02-07 19:57": {"EMA": "189.3294"},
+    "2024-02-07 19:56": {"EMA": "189.3204"},
+    ...
+  }
+}
+
+
+RSI : -
+{
+    "Meta Data": {
+        "1: Symbol": string,
+        "2: Indicator": string,
+        "3: Last Refreshed": string,
+        "4: Interval": string,
+        "5: Time Period": integer,
+        "6: Series Type": string,
+        "7: Time Zone": string
+    },
+    "Technical Analysis: RSI": {
+        timestamp (string): {
+            "RSI": string
+        },
+        ...
+    }
+}

@@ -2,7 +2,7 @@ import requests
 from dotenv import load_dotenv
 import os
 import pandas as pd
-
+import json
 
 class MarketReader:
     def __init__(self, symbol):
@@ -125,22 +125,44 @@ class MarketReader:
 
 
 marketInput = MarketReader("AAPL")
-print("\n\n\n Live Stream \n\n\n")
-print(marketInput.get_live_stream())
-print("\n\n\n Daily \n\n\n")
-print(marketInput.get_daily())
-print("\n\n\n Weekly \n\n\n")
-print(marketInput.get_weekly())
-print("\n\n\n Monthly \n\n\n")
-print(marketInput.get_monthly())
-print("\n\n\n Market Status \n\n\n")
-print(marketInput.get_market_status())
-print("\n\n\n News Sentiment \n\n\n")
-print(marketInput.get_news_sentiment())
-print("\n\n\n Top Gainers Losers \n\n\n")
-print(marketInput.get_top_gainers_losers())
-print("\n\n\n EMA \n\n\n")
-print(marketInput.get_ema())
-print("\n\n\n RSI \n\n\n")
-print(marketInput.get_rsi())
+# print("\n\n\n Live Stream \n\n\n")
+# print(marketInput.get_live_stream())
+# print("\n\n\n Daily \n\n\n")
+# print(marketInput.get_daily())
+# print("\n\n\n Weekly \n\n\n")
+# print(marketInput.get_weekly())
+# print("\n\n\n Monthly \n\n\n")
+# print(marketInput.get_monthly())
+# print("\n\n\n Market Status \n\n\n")
+# print(marketInput.get_market_status())
+# print("\n\n\n News Sentiment \n\n\n")
+# print(marketInput.get_news_sentiment())
+# print("\n\n\n Top Gainers Losers \n\n\n")
+# print(marketInput.get_top_gainers_losers())
+# print("\n\n\n EMA \n\n\n")
+# print(marketInput.get_ema())
+# print("\n\n\n RSI \n\n\n")
+# print(marketInput.get_rsi())
 
+with open("marketReaderFunctionsReturnFormat.txt",'w') as file:
+    file.write("Live Stream\n")
+    file.write(str(marketInput.get_live_stream()))
+    file.write("\n\n\n Daily \n\n\n")
+    file.write(str(marketInput.get_daily()))
+    file.write("\n\n\n Weekly \n\n\n")
+    file.write(str(marketInput.get_weekly()))
+    file.write("\n\n\n Monthly \n\n\n")
+    file.write(str(marketInput.get_monthly()))
+    file.write("\n\n\n Market Status \n\n\n")
+    file.write(str(marketInput.get_market_status()))
+    file.write("\n\n\n News Sentiment \n\n\n")
+    file.write(str(marketInput.get_news_sentiment()))
+    file.write("\n\n\n Top Gainers Losers \n\n\n")
+    file.write(str(marketInput.get_top_gainers_losers()))
+    file.write("\n\n\n EMA \n\n\n")
+    file.write(str(marketInput.get_ema()))
+    file.write("\n\n\n RSI \n\n\n")
+    file.write(str(marketInput.get_rsi()))
+    
+    file.close()
+print("Data saved to marketReaderFunctionsReturnFormat.txt")
